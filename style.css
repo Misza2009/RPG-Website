@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'diablolight';
+    src: url('diablo_light-webfont.woff2') format('woff2'),
+         url('diablo_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3b0000;
+}
+
+.card{
+    background-color: #e3dac9;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+}
+
+.section--cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: #2b0303;
+    font-family: 'diablolight';
+}
+
+
+
