@@ -18,7 +18,7 @@
     border-radius: 5px;
     width: 400px;
     text-align: center;
-    transform: scale(1.1);
+    transition:0.5s;
 }
 
 .section--cards{
@@ -32,6 +32,10 @@ body{
     font-family: 'diablolight';
 }
 
+.card:hover{
+    scale:1.2;
+    
+}
 
 
 
