@@ -10,7 +10,9 @@
 .header__nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #3b0000;
+    font-size: large;
 }
 
 .card{
