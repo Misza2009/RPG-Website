@@ -33,7 +33,8 @@ a:link {
   
   a:hover {
     color: #eacd36;
-    background-color: #610808;
+    background: linear-gradient(to bottom, #610808, #3b0000);
+    background-size: 120% 120%;
     border-radius: 5px;
     text-decoration: none;
     scale:1.1;
@@ -69,5 +70,9 @@ body{
     
 }
 
+.hero_1{
+    width: 100vw;
+    height: auto; 
+}
 
 
