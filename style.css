@@ -15,6 +15,36 @@
     font-size: large;
 }
 
+a{
+  transition: 0.5s;
+}
+
+a:link {
+    color: #eacd36;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #eacd36;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #eacd36;
+    background-color: #610808;
+    border-radius: 5px;
+    text-decoration: none;
+    scale:1.1;
+  }
+  
+  a:active {
+    color: #eacd36;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 .card{
     background-color: #e3dac9;
     border-radius: 5px;
