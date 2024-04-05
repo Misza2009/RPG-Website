@@ -15,23 +15,23 @@
     font-size: large;
 }
 
-a{
+.header__link {
   transition: 0.5s;
 }
 
-a:link {
+.header__link:link {
     color: #eacd36;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:visited {
+  .header__link:visited {
     color: #eacd36;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
+  .header__link:hover {
     color: #eacd36;
     background: linear-gradient(to bottom, #610808, #3b0000);
     background-size: 120% 120%;
@@ -40,9 +40,9 @@ a:link {
     scale:1.1;
   }
   
-  a:active {
+  .header__link:active {
     color: #eacd36;
-    background-color: transparent;
+    background: linear-gradient(to bottom, #3b0000, #610808);
     text-decoration: none;
   }
 
@@ -54,10 +54,21 @@ a:link {
     transition:0.5s;
 }
 
+.card2{
+  background-color: #e3dac9;
+  font-size: larger;
+  border-radius: 5px;
+  width: calc(90vw);;
+  transition:0.5s;
+  padding: 10px;
+  position: relative;
+}
+
 .section--cards{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 body{
@@ -66,8 +77,11 @@ body{
 }
 
 .card:hover{
-    scale:1.2;
-    
+    scale:1.2;  
+}
+
+.card2:hover{
+    scale:1.05;
 }
 
 .hero_1{
@@ -76,3 +90,48 @@ body{
 }
 
 
+
+.article-image{
+  float: left;
+  margin-right: 20px;
+}
+
+.button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+.button:link {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.button:visited {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #000000;
+  scale:1.1;
+}
+
+.button:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.button {
+  transition: 0.5s;
+}
+.card{
+  background-color: #e3dac9;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  transition:0.5s;
+}
