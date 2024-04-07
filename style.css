@@ -71,6 +71,10 @@
   text-align: center;
   transition:0.5s;
 }
+
+.card3:hover{
+  scale:1.1;
+}
 .section--cards{
     display: flex;
     justify-content: space-around;
@@ -157,26 +161,8 @@ body{
   transition: 0.5;
 }
 
-.shop-link:link {
-  color: #000000;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.shop-link:visited {
-  color: #000000;
-  background-color: transparent;
-  text-decoration: none;
-}
-
 .shop-link:hover {
-  color: #000000;
   scale:1.5;
-}
-
-.shop-link:active {
-  color: #000000;
-  text-decoration: none;
 }
 
 .easter-egg{
